@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p class="logo"><span>K</span>elvin.</p>
+            
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <img src="images/cloze.png" width="20" onclick="closemenu()">
+            </ul>
+            <img src="images/menu.png" width="20" onclick="openmenu()">
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi,I'm <span>Kelvin</span><br> Harries From Kenya</h1>
+        </div>
+        </div>
+        
+    </div>
+    <!--------About--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <img src="images/kelvin2.png">
+                    
+
+                    </div>
+                    <div class="col2">
+                        <h1 class="subtitle">About Me</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, neque id provident dicta libero quia deleniti nam harum obcaecati ipsum unde culpa vero magni quisquam accusantium quasi velit voluptate! Sint?.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links"  onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing
+                                Web/App Interfaces</li>
+                                <li><span>Web Development</span><br>
+                                    Web/App Development</li>
+                                    <li><span>UI/UX</span><br>Building Android/IOS Apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing
+                                Web/App Interfaces</li>
+                                <li><span>Web Development</span><br>
+                                    Web/App Development</li>
+                                    <li><span>UI/UX</span><br>Building Android/IOS Apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing
+                                Web/App Interfaces</li>
+                                <li><span>Web Development</span><br>
+                                    Web/App Development</li>
+                                    <li><span>UI/UX</span><br>Building Android/IOS Apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021-current</span><br>UI/UX Design At Kisii Institute</li>
+                                <li><span>2017-2019</span><br>UI/UX Design Executive At Kitale Digital Ltd.</li>
+                                    <li><span>2016-2017</span><br>Internship at Khetias eCommerce</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents">
+                            <ul>
+                                <li><span>2024</span><br>UI/UX Design Training At Kitale ET Institute</li>
+                                <li><span>2023</span><br>MBA From MIT Kitale</li>
+                                    <li><span>2023</span><br>MBA From ISM Kalowen</li>
+                            </ul>
+                        </div>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <img src="images/html.jpg" width="20" >
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque culpa commodi fugiat sed, nam eveniet!.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <img src="images/images (1).png" width="40" >
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque culpa commodi fugiat sed, nam eveniet!.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <img src="images/app.png" width="40">
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque culpa commodi fugiat sed, nam eveniet!.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/socialmedia.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connect you to the talented people around the world.Download it from google play store</p>
+                        <a href="#"><img src="images/arrow-right.jpg" width="10"></a>
+                    </div>
+                   
+                </div>
+                <div class="work">
+                    <img src="images/music.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connect you to the talented people around the world.Download it from google play store</p>
+                        <a href="#"><img src="images/arrow-right.jpg" width="10"></a>
+                    </div>
+                   
+                </div>
+                <div class="work">
+                    <img src="images/onlineshop.jpg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connect you to the talented people around the world.Download it from google play store</p>
+                        <a href="#"><img src="images/arrow-right.jpg" width="10"></a>
+                    </div>
+                   
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+       </div>
+       <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><img src="images/send.jpg" width="20">contact@example.com</p>
+                    <p><img src="images/call.jpg" width="20">0114895068</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><img src="images/facebook.jpg" width="20" ></a>
+                        <a href="https://twitter.com/"><img src="images/twitter.jpg" width="20" ></a>
+                        <a href="https://instagram.com/"><img src="images/instagram.jpg" width="20" ></a>
+                        <a href="https://whatsapp.com/"><img src="images/whatsapp.jpg" width="20" ></a>
+                    </div>
+                    <a href="images/filter notes.PDF" download  class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="Submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <img src="images/copy.png" width="10"> Kelvin.Made with Kelvin</p>
+        </div>
+       </div>
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    
+</body>
+</html>
